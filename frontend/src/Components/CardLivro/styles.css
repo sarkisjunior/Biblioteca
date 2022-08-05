@@ -1,0 +1,57 @@
+.card-livro {
+    height: 300px;
+    width: 250px;
+    background-color: #82DBD8;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 30px;
+    box-shadow: 5px 5px 5px rgb(163, 163, 163);
+  }
+  
+  .card-info {
+    height: 300px;
+    width: 250px;
+    background-color: #82DBD8;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    color: rgb(7, 58, 59);
+  }
+  
+  .card-titulo {
+    font-size: 26px;
+    font-weight: 600;
+    
+    text-align: center;
+  }
+  
+  .card-autor {
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 50px;
+  }
+  
+  .card-acao {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #24535a;
+  }
+  
+  button {
+    width: 100px;
+    border: none;
+    background-color: transparent;
+    width: 100%;
+    color: #ffff;
+    font-size: 16px;
+    cursor: pointer;
+  }

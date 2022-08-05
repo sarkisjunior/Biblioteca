@@ -1,0 +1,12 @@
+CREATE TABLE public.livros
+(
+    id serial NOT NULL,
+    titulo character varying NOT NULL,
+    autor character varying NOT NULL,
+    editora character varying NOT NULL,
+    paginas integer NOT NULL,
+    PRIMARY KEY (id)
+);
+
+ALTER TABLE IF EXISTS public.livros
+    OWNER to postgres;
